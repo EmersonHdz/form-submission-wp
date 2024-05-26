@@ -1,0 +1,100 @@
+
+  /* Estilos generales del formulario */
+  .formulario-citas {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dad7d7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .formulario-citas h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .campo {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+
+  .campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .campo input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .campo input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+
+  input[type="submit"] {
+    display: block;
+    margin: 1rem;
+    padding: 1rem 5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1.5;
+    cursor: pointer;
+
+  }
+
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 600px) {
+    .campo {
+      flex-basis: 100%;
+    }
+  }
+
+
+
+  
+  
+  .exito, .error {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px auto;
+  }
+  
+  .exito {
+    background-color: #0b0c0c;
+    color: #c5cac8;
+  }
+  
+  .error {
+    background-color: #ec0b1e;
+    color: #e6dfe0;
+  }
+  
+
